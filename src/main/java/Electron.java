@@ -1,14 +1,15 @@
 
-public class Acoustic extends Music {
+public class Electron extends Music {
 
-    int bpm;
+    Double acoustic;
 
-    public Acoustic(String title, String artist, String genre, double duration, int bpm) {
+
+    public Electron(String title, String artist, String genre, double duration, Double acoustic) {
         this.title = title;
         this.artist = artist;
         this.genre = genre;
         this.duration = duration;
-        this.bpm = bpm;
+        this.acoustic = acoustic;
     }
 
     public String listen() {
